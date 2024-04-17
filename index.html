@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" >
+    <link rel="stylesheet" href="style.css">
+    <title>Product Page</title>
+</head>
+<body>
+    <header>
+        <img id="menu" src="icon-menu.svg" alt="icon-menu">
+        <div>
+        <img id="logo" src="logo.svg" alt="logo">
+        <div class="mobile-lightbox">
+            
+        <ul id="navigation">
+            <button><img id="close-menu" src="icon-close.svg" alt=""></button>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        </div>
+        </div>
+        <div>
+            <img id="cart" src="icon-cart.svg" alt="icon-cart">
+            <img id="avatar" src="image-avatar.png" alt="image-avatar">
+        </div>
+    </header>
+    <main>
+        <div class="image">
+            <div id="big-image"></div>
+            <div class="product-images">
+                <img id="image1" src="image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail">
+                <img id="image2"  src="image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail">
+                <img id="image3" src="image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail">
+                <img id="image4"  src="image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail">
+            </div>
+        </div>
+        <div class="description">
+            <p><span class="orange-text">SNEAKER COMPANY</span></p>
+            <h1>Fall Limited Edition Sneakers</h1>
+            <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer</p>
+            <div class="price">
+                <h2 id="price">$125.00 <span class="orange-text orange-BG">50%</span></h2>
+                <p>$250.00</p>
+            </div>
+            <div class="cart">
+                <div class="additem">
+                    <img id="minus" src="icon-minus.svg" alt="icon-minus">
+                    <p id="item-number">0</p>
+                    <img id="plus" src="icon-plus.svg" alt="icon-plus">
+                </div>
+                    <button id="add-to-cart"><img src="icon-cart.svg" alt="icon-cart" > Add to cart</button>
+            </div>
+        </div>
+    </main>
+    <div class="lightbox">
+        <div class="big-image">
+         <button id="previous-btn"><img src="icon-previous.svg" alt="icon-previous"></button>
+         <button id="next-btn"><img src="icon-next.svg" alt="icon-previous"></button>
+         <button id="close-btn"><img src="icon-close.svg" alt="icon-close"></button>
+        </div>
+<div class="product-images">
+ <img id="lightbox-image1" src="image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail">
+ <img id="lightbox-image2" src="image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail">
+ <img id="lightbox-image3" src="image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail">
+ <img id="lightbox-image4" src="image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail">
+</div>
+</div>
+
+    <div class="cart-summary">
+        <p>Cart</p>
+        <div id="cart-details"><img src="image-product-1-thumbnail.jpg" alt="image-product-1">
+        <div class="cart-info"><p>Fall Limited Edition Sneakers</p>
+        <p id="final-price">$125.00 x <span id="item-no">3</span> <span id="total">$375.00</span></p></div>
+            <img id="delete" src="icon-delete.svg" alt="icon-delete">
+    </div>
+    <button id="checkout-btn">Checkout</button>
+    <p id="empty-message">Your cart is empty.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
